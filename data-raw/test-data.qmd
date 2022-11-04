@@ -1,0 +1,13 @@
+---
+title: "test-data"
+format: html
+---
+
+
+```{r}
+set.seed(1)
+
+gauss_me <- rnorm(100)
+usethis::use_data(gauss_me, overwrite = TRUE)
+```
+
